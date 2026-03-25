@@ -14,7 +14,6 @@ object PlayGraalVMNativeImagePlugin extends AutoPlugin {
 
   override def requires: Plugins = PlayScala
 
-
   object autoImport {
     val graalVMNativeImage: TaskKey[Unit] = taskKey("")
   }

@@ -7,7 +7,9 @@ lazy val root =
     .enablePlugins(SbtPlugin)
     .settings(
       name := "sbt-play-gvmni",
-      libraryDependencies ++= Seq("org.playframework" % "sbt-plugin_2.12_1.0" % "3.0.10")
+      libraryDependencies ++= Seq(
+        "org.playframework" % "sbt-plugin_2.12_1.0" % "3.0.10"
+      )
     )
     // scripted
     .settings(
